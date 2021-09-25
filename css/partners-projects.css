@@ -1,0 +1,93 @@
+.company {
+  background-color: #232323;
+  margin-bottom: 42px;
+  height: max-content;
+  border-radius: 5px;
+}
+
+.company-logo {
+  width: 13%;
+  padding: 40px;
+  float: left;
+}
+
+.company-text {
+  margin: 40px 0px;
+  display: inline-block;
+  color: white;
+  max-width: 75%;
+}
+
+@media (max-width: 970px) {
+  .company-logo {
+    display: none;
+  }
+  .company-text {
+    width: 100%;
+    margin: 40px;
+  }
+  h1 {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (max-width: 510px) {
+  h1 {
+    font-size: 24px;
+    margin-bottom: 11px;
+  }
+  h2,h3  {
+    font-size: 16px;
+  }
+
+}
+
+.company-name {
+  font-size: 24px;
+}
+
+.involvement, .links {
+  color: #888;
+}
+
+.links {
+  margin-top: 21px;
+  margin-bottom: 11px;
+}
+
+.company-link:hover {
+  background: white;
+  color: #900f09;
+  transition: .4s;
+}
+
+.company-description {
+  padding-top: 21px;
+  color: white;
+  padding-top: 9px;
+}
+
+.last-company {
+  margin-bottom: 100px;
+}
+
+.company-link {
+  color: white;
+  padding: 6px;
+  margin: 15px;
+  border-radius: 3px;
+}
+
+.company-text {
+  margin: 40px;
+}
+
+.company-text-no-picture {
+  width: 100%;
+  margin: 40px;
+}
+
+li {
+  list-style: none;
+}

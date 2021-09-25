@@ -1,0 +1,135 @@
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  display: block;
+  position: relative;
+  width: max-content;
+  padding: 8px 32px;
+  text-transform: uppercase;
+  color: #232323;
+
+  -webkit-user-select: none; /* Make text non-selectable Safari */
+  -moz-user-select: none; /* Make text non-selectable Firefox */
+  -ms-user-select: none; /* Make text non-selectable IE10+/Edge */
+  user-select: none; /* Make text non-selectable Standard */
+}
+
+h1::before {
+  position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+
+    content: "";
+    background-image: url(../src/brackets.png);
+    background-size: cover;
+}
+
+h1::after {
+  position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 30px;
+      width: 30px;
+
+      content: "";
+      background-image: url(../src/brackets.png);
+      background-size: cover;
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-body {
+  width: 70%;
+  padding: 40px 15%;
+  margin: auto;
+}
+
+.bottom-padding {
+  padding-bottom: 11px;
+}
+
+.blank_selection { display: none; }
+
+.this-week-input {
+  width: 300px;
+
+  /* Auto-scaling once JS is implemented.
+  https://stackoverflow.com/questions/8100770/auto-scaling-inputtype-text-to-width-of-value */
+}
+
+.remove-item-button {
+  display: inline-block;
+}
+
+.checkbox-wrapper {
+  display: block;
+  padding-bottom: 15px;
+}
+
+input[type=checkbox] {
+  -ms-transform: scale(1.25); /* IE */
+  -moz-transform: scale(1.25); /* FF */
+  -webkit-transform: scale(1.25); /* Safari and Chrome */
+  -o-transform: scale(1.25); /* Opera */
+  transform: scale(1.25);
+  padding: 10px;
+}
+
+.settings-button {
+  margin-top: 50px;
+  color: grey;
+}
+
+.next-week {
+  display: none;
+}
+
+.content-L-main {
+  padding: 0px;
+  margin: 0px;
+  float: left;
+  width: 50%;
+}
+
+.content-R-main {
+  display: inline-flex;
+  justify-content: flex-end;
+  padding: 0px;
+  margin: 0px;
+  width: 50%;
+}
+
+.contact-footer-text {
+  padding: 11px 0px;
+}
+
+.contact-footer-link {
+  color: #232323;
+}
+
+.contact-subtext {
+  padding-top: 11px;
+  padding-bottom: 30px;
+}
+
+.introduction {
+  width: 70%;
+  padding: 40px 15%;
+  margin: auto;
+  background-color: #EBECF0;
+}
