@@ -147,7 +147,10 @@ body {
   h1 {
     font-size: 2em;
   }
-
+  .insta-div, .insta-footer {
+    height: 6.5vmin;
+    width: 6.5vmin;
+  }
 }
 
 .nav-bar-item:hover {
