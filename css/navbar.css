@@ -36,7 +36,8 @@
 }
 
 .overlay a:hover {
-  background-color: var(--crimson);
+  background-color: var(--l-grey);
+  color: var(--crimson);
   transition: .5s;
 }
 
@@ -49,6 +50,10 @@
   transition: 0.3s; /* Transition effects on hover (color) */
   margin-top: 21px;
   padding: 11px 25px;
+  width: max-content;
+  margin:auto;
+  margin-top: 16px;
+  border-radius: 4px;
 }
 
 .overlay .closebtn {
