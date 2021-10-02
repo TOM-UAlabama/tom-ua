@@ -156,8 +156,8 @@ body {
 
 .insta-div {
   display: block;
-  height: 5vmax;
-  width: 5vmax;
+  height: 5vmin;
+  width: 5vmin;
   fill: var(--l-grey);
   padding: 10px;
   margin: 20px auto;
@@ -165,8 +165,8 @@ body {
 
 .insta-footer {
   fill: inherit;
-  height: 5vmax;
-  width: 5vmax;
+  height: 5vmin;
+  width: 5vmin;
 }
 
 .insta-div:hover {
