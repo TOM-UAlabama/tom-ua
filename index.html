@@ -16,16 +16,32 @@
   <link rel="stylesheet" href="css/flickity-with-bg.css">
   <!-- End Flickity With Background Links -->
 
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Begin Hamborger Menu -->
+  <div id="navOverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="articles.html">Articles & Awards</a>
+      <a href="projects.html">Projects & Experiences</a>
+      <a href="resume.html">Resume</a>
+    </div>
+  </div>
+  <!-- End Hamborger Menu -->
 
   <!-- Begin NavBar -->
   <div class="nav-bar">
     <div class="content-L">
+      <button type="button" onclick="openNav()" class="hamburger"><p>menu</p></button>
       <img class="logo" src="src/tom-logo.png" alt="TOM:UA Logo">
       <p class="header-text">TOM:UA</p>
     </div>
@@ -46,7 +62,7 @@
     <!-- <div class="content-L-main"> -->
       <h1>TOM:UA</h1>
       <p>TOM:UA is commited to producing high-quality, easy to manufacture assisted living devices for disadvantaged or overlooked communities and individuals in the Tuscaloosa community.</p>
-      <p class="p-tag">Our team is composed of engineers, makers, business and marketing students all working together to help others.</p>
+      <p class="p-tag">Our team is composed of engineering, medical, and business students, all working together to help our community.</p>
       <p class="p-tag">We have also partnered with several local and national non-profits to further motivate our efforts.</p>
       <a class="button home-page-button" href="contact.html">Contact Us</a>
       <a href="https://tomglobal.org/" class="button contact-us-button">Learn More About TOM</a>
@@ -86,4 +102,5 @@
     <p>© 2021 TOM:UA</p>
   </div>
 </body>
+<script src="js/hamburger.js"></script>
 </html>

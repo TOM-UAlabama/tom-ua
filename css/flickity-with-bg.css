@@ -69,12 +69,12 @@
 }
 
 @media (max-width: 975px) {
-  .photos-header {
+  /* .photos-header {
     display: block;
     margin: auto;
     margin-bottom: 21px;
     margin-top: 21px;
-  }
+  } */
   h1 {
     margin-bottom: 21px;
   }

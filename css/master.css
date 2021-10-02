@@ -1,3 +1,8 @@
+:root {
+  --crimson: #900f09;
+  --d-grey: #232323;
+}
+
 body {
   font-family: sans-serif;
   font-size: 1.25vw;
@@ -12,6 +17,7 @@ h1 {
   padding: 8px 32px;
   text-transform: uppercase;
   color: #232323;
+  font-size: 1.25em;
 
   -webkit-user-select: none; /* Make text non-selectable Safari */
   -moz-user-select: none; /* Make text non-selectable Firefox */
@@ -133,6 +139,12 @@ body {
   .content-R-main {
     display: block;
     margin:auto;
+  }
+  body {
+    font-size: 4vmin;
+  }
+  h1 {
+    font-size: 2em;
   }
 
 }
