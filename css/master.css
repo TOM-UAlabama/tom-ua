@@ -131,28 +131,6 @@ body {
   height: 100%;
 }
 
-@media (max-width:1270px) {
-  .content-L-main {
-    display: block;
-    width: 100%;
-    margin: auto;
-  }
-  .content-R-main {
-    display: block;
-    margin:auto;
-  }
-  body {
-    font-size: 4vmin;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  .insta-div, .insta-footer {
-    height: 6.5vmin;
-    width: 6.5vmin;
-  }
-}
-
 .nav-bar-item:hover {
   background-color: #EBECF0;
 }
@@ -178,4 +156,26 @@ body {
   border-radius: 50%;
   border-style: solid;
   border: 8px;
+}
+
+@media (max-width:1270px) {
+  .content-L-main {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .content-R-main {
+    display: block;
+    margin:auto;
+  }
+  body {
+    font-size: 4vmin;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .insta-div, .insta-footer {
+    height: 6.5vmin;
+    width: 6.5vmin;
+  }
 }
