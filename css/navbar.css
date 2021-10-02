@@ -3,6 +3,7 @@
   color: white;
   height: max-content;
   white-space: nowrap;
+  font-family: "Poppins", sans-serif;
 
   height: auto;
   width: 80%;
@@ -17,8 +18,11 @@
   width: 30%;
 }
 
-.nav-bar img {
-  height: 10px;
+.logo {
+  height: 55px;
+  padding: 6px 0px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .content-R {
@@ -33,6 +37,8 @@
   font-size: 21px;
   color: white;
   padding: 18px 40px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .nav-bar-item {

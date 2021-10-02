@@ -8,6 +8,16 @@
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/master.css">
   <link rel="stylesheet" href="./css/buttons.css">
+
+  <!-- Begin Flickity With Background Links -->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="css/flickity-with-bg.css">
+  <!-- End Flickity With Background Links -->
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -15,7 +25,7 @@
   <!-- Begin NavBar -->
   <div class="nav-bar">
     <div class="content-L">
-      <img src="" alt="TOM:UA Logo">
+      <img class="logo" src="src/tom-logo.png" alt="TOM:UA Logo">
       <p class="header-text">TOM:UA</p>
     </div>
 
@@ -24,34 +34,50 @@
       <a href="contact.html"><li class="nav-bar-item header-text">Contact Form</li></a>
       <!-- <a href="about.html"><li class="nav-bar-item header-text">About Us</li></a> -->
       <!-- <a href="projects.html"><li class="nav-bar-item header-text">Projects</li></a> -->
-      <a href="partners.html"><li class="nav-bar-item header-text">Partners</li></a>
+      <!-- <a href="partners.html"><li class="nav-bar-item header-text">Partners</li></a> -->
     </div>
   </div>
   <!-- End NavBar -->
 
+
+
   <div class="introduction">
-    <div class="content-L-main">
+    <!-- <div class="content-L-main"> -->
       <h1>TOM:UA</h1>
       <p>TOM:UA is commited to producing high-quality, easy to manufacture assisted living devices for disadvantaged or overlooked communities and individuals in the Tuscaloosa community.</p>
       <p class="p-tag">Our team is composed of engineers, makers, business and marketing students all working together to help others.</p>
       <p class="p-tag">We have also partnered with several local and national non-profits to further motivate our efforts.</p>
       <a class="button home-page-button" href="contact.html">Contact Us</a>
-      <a href="https://tomglobal.org/" class="button contact-us-button">More About TOM</a>
-    </div>
+      <a href="https://tomglobal.org/" class="button contact-us-button">Learn More About TOM</a>
+    <!-- </div> -->
 
-    <div class="content-R-main">
-      <img src="./src/face-shield.jpg" alt="TOM:UA" width="400px" height="auto">
+    <!-- <div class="content-R-main">
+
+    </div> -->
+  </div>
+
+  <div class="pictures-div">
+    <h1 class="photos-header">Photos</h1>
+    <div class="main-carousel" data-flickity='{ "cellAlign": "left", "autoPlay": 1500, "pageDots": false, "prevNextButtons": true, "wrapAround": true, "groupCells": true, "lazyLoad": true, "imagesLoaded": true, "draggable": true}'>
+      <div class="carousel-cell">
+        <img class="img" src="src/face-shield.jpg" alt="Image">
+      </div>
+
+      <!-- <div class="carousel-cell">
+        <img class="img"src="src/face-shield2.jpg" alt="Image">
+        <div class="overlay-flickity">
+          <p class="text">Atlanta Face Shield volunteer assembly session.</p>
+        </div>
+      </div> -->
     </div>
   </div>
 
   <div class="main-body">
-
-
     <div>
       <h2>Other Important Links</h2>
-      <a class="button centered-buttons" href="about.html">About Us</a>
-      <a class="button centered-buttons" href="projects.html">Recent Projects</a>
-      <a class="button centered-buttons" href="partners.html">Partners</a>
+      <!-- <a class="button centered-buttons" href="about.html">About Us</a> -->
+      <a class="button centered-buttons" href="https://tomglobal.org/search">Other TOM Projects</a>
+      <!-- <a class="button centered-buttons" href="partners.html">Partners</a> -->
     </div>
   </div>
 
