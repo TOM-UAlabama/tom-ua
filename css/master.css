@@ -153,3 +153,26 @@ body {
 .nav-bar-item:hover {
   background-color: #EBECF0;
 }
+
+.insta-div {
+  display: block;
+  height: 5vmax;
+  width: 5vmax;
+  fill: var(--l-grey);
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.insta-footer {
+  fill: inherit;
+  height: 5vmax;
+  width: 5vmax;
+}
+
+.insta-div:hover {
+  background-color: white;
+  fill: var(--d-grey);
+  border-radius: 50%;
+  border-style: solid;
+  border: 8px;
+}
