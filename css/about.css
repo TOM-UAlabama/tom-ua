@@ -36,3 +36,21 @@ h3, h4 {
   display: inline-block;
   vertical-align: middle;
 }
+
+@media (max-width:1270px) {
+  .main-body {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (max-width:800px) {
+  .profile {
+    display: block;
+    margin: auto;
+    width: 80%;
+  }
+  .profile img {
+    width: 95%;
+  }
+}
