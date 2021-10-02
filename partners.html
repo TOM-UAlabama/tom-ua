@@ -3,7 +3,17 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TOM:UA</title>
+  <title>TOM:UA - Partners</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="icon" href="src/icon.png">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/master.css">
@@ -11,18 +21,31 @@
 </head>
 
 <body>
+  <!-- Begin Hamborger Menu -->
+  <div id="navOverlay" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="index.html">Home</a>
+      <a href="contact.html">Contact Form</a>
+      <a href="about.html">About Us</a>
+      <!-- <a href="projects.html">Projects</a> -->
+      <!-- <a href="partners.html">Partners</a> -->
+    </div>
+  </div>
+  <!-- End Hamborger Menu -->
 
   <!-- Begin NavBar -->
   <div class="nav-bar">
     <div class="content-L">
-      <img src="" alt="TOM:UA Logo">
+      <button type="button" onclick="openNav()" class="hamburger"><p>menu</p></button>
+      <img class="logo" src="src/tom-logo.png" alt="TOM:UA Logo">
       <p class="header-text">TOM:UA</p>
     </div>
 
     <div class="content-R">
       <a href="index.html"><li class="nav-bar-item header-text">Home</li></a>
       <a href="contact.html"><li class="nav-bar-item header-text">Contact Form</li></a>
-      <!-- <a href="about.html"><li class="nav-bar-item header-text">About Us</li></a> -->
+      <a href="about.html"><li class="nav-bar-item header-text">About Us</li></a>
       <!-- <a href="projects.html"><li class="nav-bar-item header-text">Projects</li></a> -->
       <a href="partners.html"><li class="nav-bar-item header-text">Partners</li></a>
     </div>
@@ -69,4 +92,5 @@
   <p>© 2021 TOM:UA</p>
 </div>
 </body>
+<script src="js/hamburger.js"></script>
 </html>

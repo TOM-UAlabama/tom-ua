@@ -1,6 +1,7 @@
 :root {
   --crimson: #900f09;
   --d-grey: #232323;
+  --l-grey: #EBECF0
 }
 
 body {
@@ -8,6 +9,7 @@ body {
   font-size: 1.25vw;
   margin: 0px;
   padding: 0px;
+  background-color: var(--l-grey);
 }
 
 h1 {
@@ -101,7 +103,6 @@ p {
   width: 70%;
   padding: 40px 15%;
   margin: auto;
-  background-color: #EBECF0;
 }
 
 .contact-header {
