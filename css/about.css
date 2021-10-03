@@ -47,8 +47,9 @@ h3, h4 {
 @media (max-width:800px) {
   .profile {
     display: block;
+    width: 70%;
+    padding: 10px;
     margin: auto;
-    width: 80%;
   }
   .profile img {
     width: 95%;
